@@ -1,0 +1,78 @@
+img{
+    box-shadow: 0px 0px 15px rgb(156, 201, 238);
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-image: url(images/paper.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding: 8px 15px;
+    display:inline-block;   
+}
+.pagination a.active{
+    background-color: rgb(72, 196, 169);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+p{
+    color: #05386B;
+background-color: #EDF5E1;
+    font-family:"The Sims Sans";
+    font-size: 25px;    
+    text-shadow: 1px 2px 0px #EDF5E1;
+    text-align: center;
+}
+#text{
+    width: 500px;
+    height: 300px;
+    margin-right: 390px;
+    position: relative;
+    text-align:center;
+}
+#main-page{
+    position: relative;
+    text-align:center;
+    text-decoration: none;
+    font-family:"The Sims Sans";
+    font-size: large;
+    color:rgb(69, 102, 121);
+    text-shadow: 1px 1px 10px rgb(88, 100, 110)
+}
+#main-page:hover{
+    text-shadow: 1px 1px 10px rgb(88, 100, 110);
+    color:rgb(70, 134, 218);
+    cursor:pointer;
+}
+.pagination a:hover:not(.active){
+    background-color: rgba(77, 90, 87, 0.562);
+    border-radius: 5px;
+}
+#newspaper{
+    font-family:"Montserrat";
+    font-size:20px;
+    position: relative;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+button{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    font-family:"The Sims Sans";
+    font-size: large;
+    color:rgb(69, 102, 121);
+    text-shadow: 1px 1px 10px rgb(88, 100, 110)
+}
