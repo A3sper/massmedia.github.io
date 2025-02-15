@@ -64,9 +64,6 @@ background-color: #EDF5E1;
     position: relative;
     text-align:center;
 }
-a{
-    text-decoration: none;
-}
 button{
     display: block;
     margin: auto;
@@ -76,3 +73,7 @@ button{
     color:rgb(69, 102, 121);
     text-shadow: 1px 1px 10px rgb(88, 100, 110)
 }
+a{
+    text-decoration: none;
+}
+
