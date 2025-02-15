@@ -1,0 +1,60 @@
+body{
+    background-image: url(images/board.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+img{
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family:"The Sims Sans";
+    font-size: 55px;    
+    text-align: center;
+    color: rgb(247, 247, 247);
+    background-color: #55BCC9;
+}
+h2{
+    font-family:"The Sims Sans";
+    font-size: 35px;    
+    text-align: center;
+    color: rgb(178, 183, 187);
+}
+p{
+    font-family:"The Sims Sans";
+    font-size: 25px;    
+    text-shadow: 1px 1px 10px rgb(123, 130, 136);
+    text-align: center;
+    color: aliceblue;
+}
+#main-page{
+    position: relative;
+    text-align:center;
+    text-decoration: none;
+    font-family:"The Sims Sans";
+    font-size: large;
+    
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding: 8px 15px;
+    display:inline-block;  
+    background-color: azure;
+}
+.pagination a.active{
+    background-color: rgb(72, 196, 169);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgba(54, 134, 226, 0.925);
+    border-radius: 5px;
+}
+a{
+    color: aliceblue;
+}

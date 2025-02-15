@@ -1,0 +1,69 @@
+
+h1{
+    font-family:"The Sims Sans";
+    font-size: 55px;    
+    text-align: center;
+    color: azure;
+}
+p{
+    color: azure;
+
+    font-family:"The Sims Sans";
+    font-size: 25px;    
+    text-align: center; 
+}
+
+body{
+    background-image: url(images/GuYDB.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.dropdown{
+    display: inline-block;
+    
+}
+.dropdown button{
+    background-color: rgba(18, 168, 168, 0.466);
+    color:white;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+    position: relative;
+    left:600px;
+    top: 100px;
+}
+
+.dropdown a{
+    display: block;
+    color:black;
+    text-decoration:none;
+    padding:10px 15 px;
+    
+}
+.dropdown .content{
+    display:none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 100px;
+    box-shadow:2px 2px 5px rgb(3, 53, 59);
+    margin:auto;
+    position: relative;
+    left:600px;
+    top: 100px;
+}
+.dropdown:hover  .content{
+    display: block; 
+}
+.dropdown:hover button{
+    background-color: beige;
+}
+.dropdown a:hover{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
